@@ -3,15 +3,24 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Gopika A</title>
+    <script src="skills.js"></script>
+    <script src="contact.js"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;500;700&display=swap" rel="stylesheet">
+
+    <link rel="icon" type="image/x-icon" href="https://i.pinimg.com/736x/65/44/f7/6544f713583e6e67ddb03a4b2718dd9f.jpg">
     <link rel="stylesheet" href="style.css">
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
 </head>
 <body>
-    <div class="main_body">
-  <nav class="navbar navbar-expand-lg navbar-light bg-info">
+    
+   <!-- ================== nav ================== -->
+   <header>
+  <nav class="navbar navbar-expand-lg navbar-light fixed-top bg-info">
     <div class="container-fluid">
-      <a style="color:white;"class="navbar-brand" href="#">GOPIKA</a>
+    <a style="color:white;"class="navbar-brand" href="#">GOPIKA A</a>
       <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
         data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup"
         aria-expanded="false" aria-label="Toggle navigation">
@@ -20,18 +29,267 @@
 
       <div class="collapse navbar-collapse justify-content-end" id="navbarNavAltMarkup">
         <div class="navbar-nav">
-          <a style="color:white;" class="nav-link active" aria-current="page" href="#">Home</a>
-          <a style="color:white;" class="nav-link" href="#">About</a>
-          <a  style="color:white;"class="nav-link" href="#">Contact</a>
-          <a  style="color:white;"class="nav-link disabled" href="#" tabindex="-1" aria-disabled="true">Address</a>
+          <a style="color:white;" class="nav-link active" aria-current="page" href="#home">Home</a>
+          <a style="color:white;" class="nav-link" href="#about1">About</a>
+          <a  style="color:white;"class="nav-link" href="#skill1">Skill</a>
+            <a  style="color:white;"class="nav-link" href="#project">Project</a>
+            <a  style="color:white;"class="nav-link" href="#contact">Contact</a>
+          
         </div>
       </div>
     </div>
   </nav>
+  </header> 
+   <!-- ================== main body ================== -->
+
+    <div id="main-body">
+
+       <!-- ================== home section ================== -->
+       
+      <div id="home" class="home">
+         <!--tag line and name-->
+
+        <div id="tag-name">
+          
+          <h1>Hi, I'm <span class="highlight">Gopika A</span></h1>
+<h4 id="typing-text"> <span class="typing"> I am a CSE student <br>who builds elegant and efficient solutions with code.<br>
+   Let's create something impactful together.</span></h4>
+          <!-- <p >"The code you write makes you a programmer.<br>
+              The code you delete makes you a good one.<br>
+           The code you don’t have to write makes you a great one.”</p> -->
+        </div>
+      </div> 
+     
+
+      <!-- ================== about ================== -->
+      <div id="about1">
+         <!-- ================== image added================== -->
+        <div id="dp">
+          
+          <img id="dp1" src="picsample.jpeg" alt="pic">
+        </div>
+       
+      <div id="about">
+        <h2>ABOUT ME</h2>
+        <p>Hi, I’m <b>Gopika A</b>, a passionate Computer Science and Engineering student currently pursuing my <b>B.Tech at the College of Engineering Trikaripur</b>. I have a keen interest in exploring core areas of computer science, including software development, database management, and emerging technologies.
+
+I enjoy solving problems, learning new concepts, and applying them through projects that enhance both my technical and analytical skills. With a strong foundation in programming and a growing interest in real-world applications of technology, I am eager to contribute to innovative solutions that create impact.
+
+Beyond academics, I am focused on continuous learning, teamwork, and building a career in the field of technology where I can grow as both a learner and a professional.
+        </p>
+      </div>
+      </div>
+
+      <!-- ================== skill ================== -->
+      <!-- <div id="skill1">
+        <h2>MY SKILLS</h2>
+        <p>C <span>80%</span></p>
+          <div class="skill">
+            
+            <div class="skill-bar">
+              <div class="skill-level c"></div>
+            </div>
+          </div>
+          <p>Java <span>30%</span></p>
+          <div class="skill">
+            
+            <div class="skill-bar">
+              <div class="skill-level java"></div>
+            </div>
+          </div>
+          <p>Python <span>60%</span></p>
+          <div class="skill">
+            
+            <div class="skill-bar">
+              <div class="skill-level python"></div>
+            </div>
+          </div>
+           <p>HTML, CSS, JavaScript <span>90%<br></span></p>
+          <div class="skill">
+           
+            <div class="skill-bar">
+              <div class="skill-level web"></div>
+            </div>
+          </div>
+        </div> -->
+
+<div id="skill1">
+  <h2>MY SKILLS</h2>
+  <div class="skills-section">
+    <p>C <span></span></p>
+    <div class="skill">
+      <div class="skill-bar">
+        <div class="skill-level c" data-level="80%"></div>
+      </div>
+    </div>
+
+    <p>Java <span></span></p>
+    <div class="skill">
+      <div class="skill-bar">
+        <div class="skill-level java" data-level="30%"></div>
+      </div>
+    </div>
+
+    <p>Python <span></span></p>
+    <div class="skill">
+      <div class="skill-bar">
+        <div class="skill-level python" data-level="60%"></div>
+      </div>
+    </div>
+
+    <p>HTML, CSS, JavaScript <span></span></p>
+    <div class="skill">
+      <div class="skill-bar">
+        <div class="skill-level web" data-level="90%"></div>
+      </div>
+    </div>
+  </div>
+</div>
+
+        
+
+        
+
+      <!-- ================== project ================== -->
+      <!-- <div id="project">
+            <h2>PROJECTS</h2>
+            <div id="project1">
+
+              <div class="card">
+                <img src="https://i.pinimg.com/736x/47/38/6c/47386cc6981f75d199cf3ab716def9b7.jpg" alt="Avatar" style="width:100%">
+                <div class="container">
+                  <h4><b>Placement Management System</b></h4> 
+                  <p>“Placement Management System is a web-based application designed to streamline the student placement process by maintaining student records, company details, and job postings. It was built using HTML, CSS, PHP, and MySQL to provide separate access for students, companies, and administrators.”</p> 
+                </div>
+              </div>
+              <div class="card">
+                <img src="https://i.pinimg.com/1200x/e6/06/8b/e6068b321ef67b2a76897764421dff4d.jpg" alt="Avatar" style="width:100% ;height:50%;" >
+                <div class="container">
+                  <h4><b>Gym Management System</b></h4> 
+                  <p>“Gym Management System is a web-based application that manages users, trainers, and equipment while simplifying task assignments and progress tracking. It was developed using HTML, CSS, PHP, and MySQL with separate dashboards for admin, trainers, and members.”</p> 
+                </div>
+              </div>
+            </div>
+
+        
+      </div> -->
+
+
+
+
+<div id="project">
+  <h2>PROJECTS</h2>
+  <div id="project1">
+
+    <div class="card">
+      <img src="https://i.pinimg.com/736x/47/38/6c/47386cc6981f75d199cf3ab716def9b7.jpg" alt="Placement Management System">
+      <div class="container">
+        <h4><b>Placement Management System</b></h4> 
+        <p>“Placement Management System is a web-based application designed to streamline the student placement process by maintaining student records, company details, and job postings. It was built using HTML, CSS, PHP, and MySQL to provide separate access for students, companies, and administrators.”</p> 
+      </div>
+    </div>
+
+    <div class="card">
+      <img src="https://i.pinimg.com/1200x/bb/c7/83/bbc783f28946d5cf1ea458308086abfd.jpg" alt="Gym Management System">
+      <div class="container">
+        <h4><b>Gym Management System</b></h4> 
+        <p>“Gym Management System is a web-based application that manages users, trainers, and equipment while simplifying task assignments and progress tracking. It was developed using HTML, CSS, PHP, and MySQL with separate dashboards for admin, trainers, and members.”</p> 
+      </div>
+    </div>
+
+  </div>
 </div>
 
 
+
+
+
+
+      <!-- ================== contact ================== -->
+      <!-- <div id="contact">
+        <section class="contact-section">
+    <div class="contact-container">
+      <h2>Contact Me</h2>
+      <form action="#" method="post" class="contact-form">
+        <div class="form-group">
+          <label for="name">Full Name</label>
+          <input type="text" id="name" name="name" placeholder="Enter your name" required>
+        </div>
+
+        <div class="form-group">
+          <label for="email">Email Address</label>
+          <input type="email" id="email" name="email" placeholder="Enter your email" required>
+        </div>
+
+        <div class="form-group">
+          <label for="subject">Phone</label>
+          <input type="text" id="subject" name="subject" placeholder="Enter phone" required>
+        </div>
+
+        <div class="form-group">
+          <label for="message">Message</label>
+          <textarea id="message" name="message" rows="5" placeholder="Write your message here..." required></textarea>
+        </div>
+
+        <button type="submit" class="btn">Send Message</button>
+      </form>
     </div>
+  </section>
+      </div> -->
+
+
+
+
+      <!-- Add this in <head> for icons -->
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css"/>
+
+<section id="contact" class="contact-section">
+  <!-- Heading OUTSIDE the form card -->
+  <h2 class="contact-title">Contact Me</h2>
+
+  <!-- Middle area holds the white form card and keeps footer visible -->
+  <div class="contact-body">
+    <div class="form-card">
+      <form action="#" method="post" class="contact-form" novalidate>
+        <div class="form-group">
+          <label for="name">Full Name</label>
+          <input type="text" id="name" name="name" placeholder="Enter your name" required>
+        </div>
+
+        <div class="form-group">
+          <label for="email">Email Address</label>
+          <input type="email" id="email" name="email" placeholder="Enter your email" required>
+        </div>
+
+        <div class="form-group">
+          <label for="phone">Phone</label>
+          <input type="text" id="phone" name="phone" placeholder="Enter phone" required>
+        </div>
+
+        <div class="form-group">
+          <label for="message">Message</label>
+          <textarea id="message" name="message" rows="4" placeholder="Write your message here..." required></textarea>
+        </div>
+
+        <button type="submit" class="btn">Send Message</button>
+      </form>
+    </div>
+  </div>
+
+  <!-- Footer INSIDE the contact section so it's visible at the same time -->
+  <div class="contact-footer">
+    <p class="quote">“Life is a tragedy for those who feel, and a comedy for those who think.” <span>— Horace Walpole</span></p>
+    <div class="social-icons">
+      <a href="https://github.com/Gopi-ka03" target="_blank" aria-label="GitHub"><i class="fab fa-github"></i></a>
+      <a href="https://www.linkedin.com/in/gopika-a-052036369" target="_blank" aria-label="LinkedIn"><i class="fab fa-linkedin"></i></a>
+    </div>
+  </div>
+</section>
+
+
+
+    </div>
+  
     <script src="https://code.jquery.com/jquery-3.7.1.js" integrity="sha256-eKhayi8LEQwp4NKxN+CfCh+3qOVUtJn3QNZ0TciWLP4=" crossorigin="anonymous"></script>
     <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.2/dist/umd/popper.min.js" integrity="sha384-IQsoLXl5PILFhosVNubq5LC7Qb9DXgDA9i+tQ8Zj3iwWAwPtgFTxbJ8NT4GN1R8p" crossorigin="anonymous"></script>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.min.js" integrity="sha384-cVKIPhGWiC2Al4u+LWgxfKTRIcfu0JTxR+EQDz/bgldoEyl4H0zUF0QKbrJ0EcQF" crossorigin="anonymous"></script>
