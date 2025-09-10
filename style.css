@@ -22,7 +22,7 @@ body{
 
   background-image: url("https://i.pinimg.com/736x/4e/03/87/4e03872d7166cc5ed92c490708af3261.jpg");
   
-   background-size:contain;
+   background-size:cover;
   background-position: center;
   background-repeat: no-repeat;
   
@@ -31,7 +31,7 @@ body{
 
 #tag-name{
   opacity: 1;
-  padding-top: 300px;
+  padding-top: 330px;
   height: 900px;
   background-color: rgba(0,0,0,0.75);
   position: absolute;
@@ -48,10 +48,13 @@ body{
   color: #00aced;
 }
 .typing {
-  color:white;
+  color:#E0E0E0;
   font-weight: bold;
 }
+.navbar{
+background: linear-gradient(90deg, #14c0c0, #1f68b5);
 
+}
 
 
 #about1 {
