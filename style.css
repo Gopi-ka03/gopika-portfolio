@@ -33,12 +33,12 @@ body{
   opacity: 1;
   padding-top: 300px;
   height: 900px;
-  background-color: rgba(0,0,0,0.55);
+  background-color: rgba(0,0,0,0.75);
   position: absolute;
   top: 0;
   margin: 0;
-  justify-content: center;
-  align-content: center;
+  justify-content:end;
+  align-content:center;
   text-align: center;
   
   width:100%;
@@ -48,7 +48,7 @@ body{
   color: #00aced;
 }
 .typing {
-  color: #f39c12;
+  color:white;
   font-weight: bold;
 }
 
@@ -82,7 +82,7 @@ body{
   position: absolute;
   top: 0; left: 0;
   width: 100%; height: 100%;
-  background: rgba(0,0,0,0.45);  /* dark overlay */
+  background: rgba(0,0,0,0.68);  /* dark overlay */
   z-index: -1;
 }
 
@@ -151,58 +151,6 @@ body{
 #contact{
   margin-top: 100px;
 }
-/* skill bar*/
-/* .skills-section {
-  width: 100px;
-  background: #fff;
-  padding: 20px 30px;
-  border-radius: 12px;
-  box-shadow: 0 5px 15px rgba(0,0,0,0.1);
-  justify-content: center;
-}
-
-.skills-section h2 {
-  text-align: center;
-  margin-bottom: 20px;
-  color: #333;
-}
-
-.skill {
-
-  margin-bottom: 20px;
-  justify-content: center;
-  align-items: center;
-  display: flex;
-}
-
-.skill p {
-  margin: 0 0 5px;
-  font-weight: bold;
-  color: #444;
-}
-
-.skill-bar {
-  width: 400px;
-  height: 12px;
-  background: #ddd;
-  border-radius: 8px;
-  overflow: hidden;
-  
-}
-
-.skill-level {
-  height: 100%;
-  border-radius: 8px;
-  transition: width 1.5s ease-in-out;
-}
-
-/* Different colors for each skill */
-/* .c { width: 80%; background: #007bff; }
-.java { width: 30%; background: #ff5722; }
-.python { width: 60%; background: #4caf50; }
-.web { width: 90%; background: #fbc02d; }
- */ 
-
 
 
 
@@ -275,30 +223,7 @@ body{
 .python { background: #4caf50; }
 .web { background: #fbc02d; }
 
-
-
-
-
-
 /*card */
-/* .card {
-  box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
-  transition: 0.3s;
-  width: 300px;
-  height: 650px;
-  color: black;
-  margin:50px;
-}
-
-.card:hover {
-  box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
-}
-
-.container {
-  padding: 2px 16px;
-} */
-
-
 
 
 /* Project Section Background (Dark Theme) */
@@ -390,82 +315,7 @@ body{
 }
 
 
-
-
-
-
-
-
-
 /*contact*/
-/* .contact-section {
-  width: 100%;
-  display: flex;
-  justify-content: center;
-  padding: 30px;
-}
-
-.contact-container {
-  background: #fff;
-  padding: 30px 40px;
-  border-radius: 12px;
-  box-shadow: 0 6px 15px rgba(0,0,0,0.1);
-  width: 500px;
-}
-
-.contact-container h2 {
-  text-align: center;
-  margin-bottom: 20px;
-  color: #333;
-}
-
-.contact-form .form-group {
-  margin-bottom: 15px;
-}
-
-.contact-form label {
-  display: block;
-  margin-bottom: 6px;
-  font-weight: bold;
-  color: #555;
-}
-
-.contact-form input,
-.contact-form textarea {
-  width: 100%;
-  padding: 10px 12px;
-  border: 1px solid #ccc;
-  border-radius: 8px;
-  font-size: 15px;
-  transition: 0.3s;
-}
-
-.contact-form input:focus,
-.contact-form textarea:focus {
-  border-color: #007bff;
-  outline: none;
-  box-shadow: 0 0 5px rgba(0,123,255,0.3);
-}
-
-.btn {
-  width: 100%;
-  padding: 12px;
-  background: #007bff;
-  color: #fff;
-  font-size: 16px;
-  border: none;
-  border-radius: 8px;
-  cursor: pointer;
-  transition: 0.3s;
-}
-
-.btn:hover {
-  background: #0056b3;
-} */
-
-
-
-
 
 /* SECTION: full viewport, dark attractive background */
 .contact-section {
