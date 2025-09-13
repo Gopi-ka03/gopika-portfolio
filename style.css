@@ -509,6 +509,9 @@ background: linear-gradient(90deg, #14c0c0, #1f68b5);
   z-index: 10;
   pointer-events: auto;
 }
+.social-icons i {
+  pointer-events: none; /* makes sure click goes to <a>, not <i> */
+}
 .social-icons a:hover { transform: translateY(-2px); background: rgba(0,170,255,.25); color: #cfefff; }
 
 /* Mobile tweaks: keep everything on one screen comfortably */
